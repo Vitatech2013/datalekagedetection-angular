@@ -1,0 +1,16 @@
+h2{
+    text-align: center;
+    font-weight: bolder;
+    color: #de129a;
+    
+}
+.card{
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+    background-color: rgba(34, 172, 76, 0.042);
+}
+button{
+    text-align: center;
+    background-color: rgb(0, 189, 252);
+}

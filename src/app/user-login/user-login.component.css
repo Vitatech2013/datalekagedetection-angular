@@ -1,0 +1,9 @@
+h2{
+    text-align: center;
+    background-color:teal;
+}
+.card{
+    width: 50%;
+    margin: auto;
+    font-weight: bold;
+}

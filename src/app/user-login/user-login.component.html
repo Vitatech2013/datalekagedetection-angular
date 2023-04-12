@@ -1,0 +1,23 @@
+<div class="card">
+    <h2 class="card-header"> User Login</h2>
+    <form action="formUser-Group" [formGroup]="LoginForm" (ngSubmit)="login()">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Username"
+                formControlName="username">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password:</label>
+            <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="password"
+                formControlName="password">
+        </div>
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+            <button class="btn btn-primary" type="submit">Login</button>
+        </div>
+        <div class="d-grid gap-2 w-80%">
+            Already a user?
+            <button class="btn btn-secondary" type="button" routerLink="/user-registration">sign up</button>
+        </div>
+    </form>
+</div>
