@@ -18,7 +18,7 @@ export class UserLoginComponent implements OnInit {
     this.LoginForm = this.fb.group({
       username: [''],
       password: ['']
-
+ 
     })
 
   }
@@ -37,7 +37,7 @@ export class UserLoginComponent implements OnInit {
       localStorage.setItem('token', JSON.stringify(res));
       this.router.navigate(['/user']);
     } else {
-      alert('failed');
+      alert('Login failed');
     }
   });
   }

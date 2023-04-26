@@ -1,0 +1,35 @@
+<div class="card">
+    <h3 class="card-header">Profile</h3>
+    <form class="userform-Group" [formGroup]="userForm">
+        <div class="mb-3">
+            <label class="form-label" aria-readonly>User name:</label>
+            <input type="text" class="form-control" placeholder="Username" formControlName="username">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Full name:</label>
+            <input type="text" class="form-control" placeholder="Fullname" formControlName="firstname">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Last name:</label>
+            <input type="text" class="form-control" placeholder="Lastname" formControlName="lastname">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Mobile:</label>
+            <input type="text" class="form-control" placeholder="Mobile" formControlName="mobileno">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email:</label>
+            <input type="text" class="form-control" placeholder="Email" formControlName="emailid">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Choose file:</label>
+            <input type="file" class="form-control" placeholder="Choose" formControlName="file">
+        </div>
+
+        <div>
+            <button class="btn btn-primary" (click)="update()">update</button>
+        </div>
+        <h3 class="card-footer">Leakage</h3>
+    </form>
+</div>
+<router-outlet></router-outlet>

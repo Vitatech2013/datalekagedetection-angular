@@ -1,0 +1,26 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>S.No</th>
+            <th>Username</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Image</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor=" let a of profile ;let i=index">
+            <td>{{i+1}}</td>
+            <td>{{a.firstname}}</td>
+            <td>{{a.lastname}}</td>
+            <td>{{a.username}}</td>
+            <td>{{a.mobileno}}</td>
+            <td>{{a.emailid}}</td>
+            <td style="width:5%"><img src="{{a.file}}" style="width:100%"></td>
+        </tr>
+    </tbody>
+</table>
+<router-outlet></router-outlet>

@@ -1,0 +1,28 @@
+.card{
+    width: 500px;
+    height: 400px; 
+    margin-top: 50px;
+    margin-left: 500px;
+     
+  }
+  button{
+    margin-left: 85%;
+    background-color: blueviolet;
+
+  }
+  .header{
+      text-align: center;
+      font-weight: bolder;
+      background-color: rgb(205, 223, 223);
+      height: 40px;
+      font-size: 20px;
+      color: rgb(71, 39, 39);
+  }
+  label{
+      font-weight: bold;
+  }
+  input{
+    border-color: darkcyan;
+    box-shadow: black;
+  }
+  

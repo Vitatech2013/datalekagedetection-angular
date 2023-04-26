@@ -7,3 +7,12 @@ h2{
     margin: auto;
     font-weight: bold;
 }
+button{
+    width: 20%;
+    
+}
+h3{
+    width: 100%;
+    text-align: center;
+    margin-left: 40%;
+}
