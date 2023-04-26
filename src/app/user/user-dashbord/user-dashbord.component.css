@@ -1,0 +1,13 @@
+nav{
+    font-weight: bold;
+    color: aqua;
+    padding: 5px;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-weight: lighter;
+    background-color: rgb(97, 151, 158);
+}

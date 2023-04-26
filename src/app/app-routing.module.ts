@@ -7,7 +7,6 @@ import { DistributorLoginComponent } from './distributor-login/distributor-login
 import { UserComponent } from './user/user.component';
 import { UserDashbordComponent } from './user/user-dashbord/user-dashbord.component';
 import { ProfileComponent } from './user/profile/profile.component';
-import { ViewComponent } from './user/view/view.component';
 import { AgentFilesComponent } from './user/agent-files/agent-files.component';
 import { ComposeComponent } from './user/compose/compose.component';
 import { DistributorFilesComponent } from './user/distributor-files/distributor-files.component';
@@ -42,7 +41,6 @@ const routes: Routes = [
   {
     path: 'user-dasboard', component: UserDashbordComponent, children: [
       { path: 'profile', component: ProfileComponent },
-      { path: 'view', component: ViewComponent },
       { path: 'agentfiles', component: AgentFilesComponent },
       { path: 'compose', component: ComposeComponent },
       { path: 'distributor-files', component: DistributorFilesComponent },

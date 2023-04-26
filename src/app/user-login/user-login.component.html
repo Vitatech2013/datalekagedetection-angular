@@ -1,4 +1,4 @@
-<div class="card">
+<!-- <div class="card">
     <h2 class="card-header"> User Login</h2>
     <form action="formUser-Group" [formGroup]="LoginForm" (ngSubmit)="login()">
         <div class="mb-3">
@@ -12,10 +12,31 @@
                 formControlName="password">
         </div>  
         <div>
-            <button type="button" class="btn btn-primary">Login</button>
+            <button type="button" class="btn btn-primary" routerLink="user-dashbord" >Login</button>
         </div>
         <h3>
-            <button type="button" class="btn btn-secondary">Sign Up</button>
+            <button type="button" class="btn btn-secondary" routerLink="user-registration">Sign Up</button>
         </h3>
     </form>
+</div> -->
+<div class="card">
+    <h2 class="card-header"> User LOgin</h2>
+    <form action="formUser-Group" [formGroup]="LoginForm" (ngSubmit)="login()">
+    <div class="mb-3">
+        <label for="formGroupExampleInput" class="form-label">Username:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Username"
+            formControlName="username">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Password:</label>
+        <input type="password" class="form-control" id="formGroupExampleInput2" placeholder="password"
+            formControlName="password">
+    </div>
+    <div>
+        <button class="btn btn-primary" type="button" routerLink="/user-dasboard">Login</button>
+    </div>
+    <h3>
+        <button class="btn btn-secondary" type="button" routerLink="/user-registration">Sign Up</button>
+    </h3>
+</form>
 </div>

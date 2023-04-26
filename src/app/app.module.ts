@@ -9,7 +9,6 @@ import { UserRegistrationComponent } from './user-registration/user-registration
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserComponent } from './user/user.component';
 import { DistributorLoginComponent } from './distributor-login/distributor-login.component';
-import { ViewComponent } from './user/view/view.component';
 import { ProfileComponent } from './user/profile/profile.component';
 import { AdminDashbordComponent } from './admin-dashbord/admin-dashbord.component';
 import { LeakFilesComponent } from './leak-files/leak-files.component';
@@ -31,7 +30,6 @@ import { UserPasswordComponent } from './user/user-password/user-password.compon
     UserLoginComponent,
     UserComponent,
     DistributorLoginComponent,
-    ViewComponent,
     ProfileComponent,
     AdminDashbordComponent,
     LeakFilesComponent,

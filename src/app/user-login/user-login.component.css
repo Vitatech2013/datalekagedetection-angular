@@ -3,16 +3,17 @@ h2{
     background-color:teal;
 }
 .card{
-    width: 50%;
+    width: 40%;
     margin: auto;
     font-weight: bold;
 }
 button{
     width: 20%;
-    
+    border-color: black;
 }
 h3{
     width: 100%;
     text-align: center;
     margin-left: 40%;
+    border-color: black;
 }
