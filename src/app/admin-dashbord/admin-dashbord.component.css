@@ -1,0 +1,12 @@
+nav{
+    font-weight: bold;
+    color: aqua;
+}
+.header{
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-weight: lighter;
+    background-color: rgb(97, 151, 158);
+}

@@ -1,0 +1,15 @@
+.card{
+    width:40%;
+    margin: auto;
+    font-weight: bolder;
+    background-color: rgb(186, 196, 196);
+    margin-top: 5%;
+}
+h2{
+    text-align: center;
+    font-weight:calc();
+}
+button{
+    color: rgb(23, 22, 21);
+    bottom: unset;
+}
